@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding:5px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li {
+    margin-left: 20px;
+}
+
+.nav_list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #e2e2e2;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+
+.recipes {
+    padding: 10px;
+    background: #e7e1e1;
+}
+
+.recipe-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe-card {
+    background: white;
+    border: 5px solid #d47575;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+   
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+ 
+}
+#recipe-list{
+    background-color: rgb(6, 52, 37);
+    display: wark;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.hero-section {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 100%; 
+}
+
+.hero h2 {
+    font-size: 3rem; 
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem; 
+    margin-top: 10px;
+}
+.search-box {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    font-size: 1rem; 
+    border: 2px solid #fffbfb; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    width: 250px; 
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(189, 112, 13);
+}
+
+
+
+    
+
+

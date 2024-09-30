@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website - By Web Coding</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Delicious Recipe</h1>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <form action="search_results.html" method="GET">
+                            <input type="text" id="search-box" name="query" placeholder="Search recipe..." required>
+                            <button type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--------- Home Section --------->
+    <section id="home" class="hero">
+        <img src="images/heo-image.jpg" alt="Hero Image"> 
+        <div class="hero-section">
+            <h2>Welcome to My Recipe Collection</h2>
+            <p>Search mouth-watering recipes to satisfy your craving.</p>
+
+            <form action="search_results.html" method="GET" class="search-box"> 
+                <input type="text" name="query" placeholder="Search recipe" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+    <!--------- End Home Section --------->
+
+    <!--------- Featured Recipes Section --------->
+    <section id="recipes" class="recipes">
+        <h1>Featured Recipes</h1>
+        
+        <div class="recipe-section">
+            <div class="recipe-card">
+                <img src="images/dish-1.jpg" alt="Strawberry Custard">
+                <h2>Strawberry Custard</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="https://youtu.be/uTaFYF1nA4c?si=r2PXpGueMIH5lzhR" target="_blank" class="video-link">Watch video recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="images/dish-2.jpg" alt="Chocolate Mousse">
+                <h2>Chocolate Mousse</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="https://youtu.be/3eXycW1fZEI?si=QE5-RAF5wa_oEM49" target="_blank" class="video-link">Watch video recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="images/dish-3.jpg" alt="Vanilla Pudding">
+                <h2>Vanilla Pudding</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="https://youtu.be/57RepN36uyU?si=ucNzCsjkN6pJS1g6" target="_blank" class="video-link">Watch video recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="images/dish-4.jpg" alt="Fruit Tart">
+                <h2>Fruit Tart</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="https://youtube.com/shorts/_VbjmuVkWXE?si=5aL6NP3dE0p2penT" target="_blank" class="video-link">Watch video recipe</a>
+            </div>
+        </div>
+    </section>
+    <!--------- End Featured Recipes Section --------->
+
+    
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Delicious Recipe</p>
+        </div>
+    </footer>
+
+</body>
+</html>
